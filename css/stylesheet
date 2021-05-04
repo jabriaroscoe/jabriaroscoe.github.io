@@ -1,0 +1,74 @@
+/* CSS stylesheet for portfolio html */
+
+body {
+  font-family: "Verdana", "Times New Roman", sans-serif;
+  color: #222;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+a {
+  color: rgb(15,16,17);
+}
+
+a:link {
+  color: rgb(15,16,17);
+}
+
+a:visited {
+  color: rgb(255,136,172);
+}
+
+a:hover {
+  color: rgb(255,0,166);
+}
+
+a:active {
+  color: rgb(255,210,217);
+}
+
+h1 {
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  box-shadow: 5px 10px rgba(49,52,54,0.5);
+  padding: 5px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  color: rgba(0,0,0,1);
+}
+
+li, td {
+  color: rgba(0,166,80,1);
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+tr, td {
+  padding: 5px;
+}
+
+tr, th {
+  padding: 10px;
+  margin-bottom: 10px;
+}
