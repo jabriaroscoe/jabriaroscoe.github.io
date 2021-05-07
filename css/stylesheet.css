@@ -1,4 +1,4 @@
-/* CSS stylesheet for Madagascar html */
+/* CSS stylesheet for Portfolio html */
 
 body {
   font-family: "Verdana", "Times New Roman", sans-serif;
@@ -11,6 +11,25 @@ nav li {
   padding: 5px;
 }
 
+.bg {
+max-width: 100%;
+height: auto;
+}
+
+.stuff{
+width: 600px
+}
+
+.wrapper {
+display:grid;
+grid-template-columns: 300px;
+}
+
+.wrapper div {
+background:rgb(255,136,172,0.5);
+padding: 10px;
+}
+
 a {
   color: rgb(15,16,17);
 }
@@ -20,29 +39,26 @@ a:link {
 }
 
 a:visited {
-  color: rgb(93,37,144);
+  color: rgb(255,136,172);
 }
 
 a:hover {
-  color: rgb(237,27,36);
+  color: rgb(255,0,166);
 }
 
 a:active {
-  color: rgb(0,166,80);
-}
-
-section {
-  background-color: rgba(237,27,36,0.2);
+  color: rgb(255,210,217);
 }
 
 h1 {
   font-size: 72px;
-  background-color: rgb(0,166,80);
-  box-shadow: 5px 10px rgba(49,52,54,0.5);
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 40px;
+  box-shadow: 5px 10px rgba(49,52,54,1);
+  padding: 5px;
 }
 
 h3 {
@@ -51,10 +67,15 @@ h3 {
 
 p {
   color: rgba(0,0,0,1);
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
 }
 
 li, td {
-  color: rgba(0,166,80,1);
+  color: rgba(31,27,15,1);
   padding-left: 0;
 }
 
