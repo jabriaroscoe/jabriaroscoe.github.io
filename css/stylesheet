@@ -9,7 +9,6 @@ nav li {
   display: inline-block;
   margin-right: 20px;
   padding: 5px;
-  background-color: rgb (245,0,133);
 }
 
 .bg {
